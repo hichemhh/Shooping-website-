@@ -1,0 +1,189 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.parentnav{
+padding-left: 100px;
+padding-right: 150px;
+height: 90px;
+box-shadow: 2px 2px 4px rgb(197, 195, 195);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.parentnav .logo{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.parentnav .nav{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+
+}
+.parentnav .nav a{
+    text-decoration: none;
+    color: #525353;
+    font-size: 22px;
+
+
+}
+
+.parentnav .nav a:hover{
+   color: rgb(253, 63, 63);
+   cursor: pointer;
+
+
+
+}
+
+.homepage{
+    background-image: url(/images/home.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    padding-top: 150px;
+    padding-left: 100px;
+    
+}
+
+.homepage .title{
+    font-size: 84px;
+    font-weight: bold;
+    color: white;
+}
+.homepage .description{
+    color: white;
+    font-size: 34px;
+    width: 800px;
+    margin-top: 16px;
+}
+
+.homepage .homebtn button{
+    border: none;
+    text-decoration: none;
+    background:transparent;
+    border: 3px solid white;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+margin-right: 8px;
+color: white;
+font-weight: bold;
+font-size: 24px;
+margin-top: 32px;
+}
+
+
+.homepage .homebtn button:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.productcontent{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.productcontent .title{
+    font-size: 18px;
+    color: gray;
+    
+}
+.productcontent .title2{
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+    margin-top: 16px;
+
+    
+}
+.productcontent .desc{
+    font-size: 24px;
+    color: gray;
+    
+    margin-top: 16px;
+    width: 700px;
+    text-align: center;
+
+    
+}
+.productshop{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 30px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+
+}
+.product .productpctr{
+    background: gainsboro;
+}
+.product .productpctr img{
+    width: 400px;
+}
+
+.product .productname{
+    font-size: 28px;
+    color:black ;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+
+.product .stars{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+.product .stars span{
+   
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+}
+.product .desc{
+   
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    color: rgb(58, 58, 58);
+}
+.product .productbtn button{
+    border: none;
+    text-decoration: none;
+    border: 3px solid rgb(7, 7, 7);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+margin-right: 8px;
+color: black;
+background: white;
+font-weight: bold;
+font-size: 18px;
+margin-top: 16px;
+   
+}
+.product .productbtn button:hover{
+
+    background: black;
+    color: white;
+    cursor: pointer;
+   
+}
